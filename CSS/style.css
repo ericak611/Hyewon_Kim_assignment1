@@ -60,9 +60,9 @@ p {
 
 #firstcol {
     background-color: #e0def4;
-    flex: 1 0 20px;
+    flex: 1;
     height: 600px;
-    width: 200px;
+    /* width: 200px; */
 }
 
 #firstcol p {
@@ -72,16 +72,31 @@ p {
 }
 
 #secondcol {
-    background-color: #ebbcba;
-    flex: 5 1 200px;
+    background-color: #ebbcba;   
+    flex: 6;
+    display: flex;
+    justify-content: center;
 }
 
-#secondcol p {
+#start_note {
     display: flex;
     background-color: #f6c177;
+    height: 30%;
+    padding-right: 10%;
+}
+
+#load_btn {
+    padding: 10px;
+    
 }
 
 #notes {
     display: flex;
     flex-direction: column;
 }
+
+/* #thirdcol {
+    flex: 2;
+    display: flex;
+
+} */
