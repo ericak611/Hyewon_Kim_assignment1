@@ -1,0 +1,9 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
