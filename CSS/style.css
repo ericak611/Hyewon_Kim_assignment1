@@ -1,9 +1,14 @@
 ul {
     display: flex;
     list-style-type: none;
-    overflow: hidden;
+    justify-content: right;
 }
 
 li {
     display: inline;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
 }
