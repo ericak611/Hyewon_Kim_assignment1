@@ -1,14 +1,41 @@
+body {
+    background-color: #ebbcba;
+}
+
 ul {
     display: flex;
     list-style-type: none;
     justify-content: right;
+    color: #191724;
+    font-size: 25px;
+    font-family: 'Hubballi', cursive;
 }
 
 li {
     display: inline;
+    color: #191724;
+    font-family: 'Hubballi', cursive;
 }
 
+p {
+    font-size: 25px;
+    font-family: 'Hubballi', cursive;
+}
 .buttons {
     display: flex;
     justify-content: space-evenly;
+    height: 500px;
+    color: #26233a;
+    font-size: 20px;
+    font-family: 'Hubballi', cursive;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 170px;
+    color: #26233a;
+    font-family: 'Hubballi', cursive;
 }
