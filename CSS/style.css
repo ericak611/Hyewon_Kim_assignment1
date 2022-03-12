@@ -15,6 +15,7 @@ li {
     display: inline;
     color: #191724;
     font-family: 'Hubballi', cursive;
+    padding: 2px;
 }
 
 p {
@@ -38,4 +39,49 @@ p {
     height: 170px;
     color: #26233a;
     font-family: 'Hubballi', cursive;
+}
+
+.bodyflex {
+    display: flex;
+    flex-direction: column;
+  
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  
+    height: 100%;
+}
+
+#first {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+#firstcol {
+    background-color: #e0def4;
+    flex: 1 0 20px;
+    height: 600px;
+    width: 200px;
+}
+
+#firstcol p {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#secondcol {
+    background-color: #ebbcba;
+    flex: 5 1 200px;
+}
+
+#secondcol p {
+    display: flex;
+    background-color: #f6c177;
+}
+
+#notes {
+    display: flex;
+    flex-direction: column;
 }
